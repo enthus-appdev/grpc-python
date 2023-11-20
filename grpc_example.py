@@ -20,7 +20,7 @@ from stargate.type.v1 import uuid_pb2
 os.environ["GRPC_VERBOSITY"] = "DEBUG"
 
 # Address to connect to.
-ADDR2 = "10.200.0.70:80"
+ADDR2 = "10.200.0.49:80"
 
 # example uuid = "C3ECA1AE-BF47-4C14-AF8D-4991306C98AA" (stage).
 def list_items(stub):

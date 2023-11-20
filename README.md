@@ -19,9 +19,10 @@ aber nur wenn die neue Version auch explizit genutzt werden soll. Stargate ist i
 auch ohne Update.
 ```
 $ cd enthus-apis
+$ git pull
 $ buf generate
 ```
-"stargate" und "buf" aus dem "gen" folder in das python-script-Verzeichnis kopieren
+"stargate" und "buf" aus dem "gen/python" folder in das Python-script-Verzeichnis kopieren
 evtl file anlegen in buf folder (python import fail)
 
 ```
