@@ -26,6 +26,7 @@ $ git pull
 $ buf generate
 ```
 "stargate" und "buf" aus dem "gen/python" folder in das Python-script-Verzeichnis kopieren
+
 evtl file anlegen in buf folder (python import fail)
 
 ```
