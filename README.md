@@ -1,5 +1,7 @@
 ### Python setup
 ```
+$ git clone git@gitlab.com:mclgmbh/grpc-python.git
+$ cd grpc-python
 $ python -m pip install virtualenv
 $ virtualenv venv
 $ source venv/bin/activate
@@ -11,6 +13,7 @@ $ python -m pip install grpcio
 ```
 ### Stargate repo klonen
 ```
+$ cd ..
 $ git clone git@gitlab.com:mclgmbh/enthus-apis.git
 ```
 ### Stargate python interfaces etc. generieren:
